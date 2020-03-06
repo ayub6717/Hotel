@@ -1,0 +1,35 @@
+
+
+input {
+  
+  background-color: #2C2E3E;
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+
+.autocomplete-items {
+  position: cover;
+  border: 1px solid #ffffff;
+  border-bottom: none;
+  border-top: none;
+  overflow: initial;
+}
+
+.autocomplete-items div {
+  cursor: pointer;
+  background-color: rgba(39, 39, 39, 0.76); 
+  border-bottom: 1px solid #4d4747; 
+  color: white;
+  padding: 10px;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #5855557e; 
+}
+
+
+.clickable { cursor: pointer; }
+
